@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  color: rgb(127, 73, 46);
+}
+body {
+  background-image: url(./image/fon2.jpg);
+}
+nav {
+  width: 100%;
+}
+
+.aboutme1 {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+.aboutme1_span1 {
+  margin-top: 20px;
+  font-size: 120%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.premium {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgb(205, 195, 178);
+  box-sizing: border-box;
+  margin: 0 40px;
+}
+.premium > img {
+  width: 96px;
+  height: 96px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.premium > span {
+  color: #131213;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.bar {
+  background-color: #979899;
+  display: block;
+  height: 22px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+}
+.bar span {
+  height: 22px;
+  float: left;
+  background-color: palevioletred;
+}
+.skill100 {
+  width: 100%;
+  animation: skill100 3s;
+}
+.skill97 {
+  width: 97%;
+  animation: skill97 3s;
+}
+.skill60 {
+  width: 60%;
+  animation: skill60 3s;
+}
+@keyframes skill100 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes skill97 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}
+@keyframes skill60 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.profesion h1 {
+  font-size: 100%;
+  color: rgb(250, 6, 250);
+}
+.profesion {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20px;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 1% auto 0 auto;
+}
+
+.container h2 {
+  margin: 2% 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 90%;
+  height: 10%;
+  margin-left: 400px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Lobster";
+  padding: 0 20px;
+}
+
+footer ul li:hover {
+  color: rgb(244, 173, 238);
+  text-decoration: underline;
+}

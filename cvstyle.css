@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url(./images/fon2.jpg);
+}
+.navbar {
+  width: 80%;
+  padding: 1%;
+  display: flex;
+  margin: 0 auto;
+}
+h1 {
+  color: rgb(148, 4, 102);
+  font-size: 80%;
+}
+.info_list {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 80%;
+  color: rgb(148, 4, 102);
+  margin-left: 40%;
+  margin-right: 10%;
+}
+a {
+  text-decoration: none;
+}
+.work:hover {
+  color: #c0b17d;
+  cursor: pointer;
+}
+.aboutme:hover {
+  color: #c0b17d;
+  cursor: pointer;
+}
+.contacts:hover {
+  color: #c0b17d;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-left: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.motivation {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  max-width: 70%;
+  max-height: 80%;
+  color: rgb(198, 146, 51);
+  font-size: 120%;
+}
+
+.motivation span {
+  line-height: 1.8;
+  font-size: 110%;
+  margin-right: 20%;
+  margin-top: 7%;
+}
+.btn_class button {
+  background-color: #ecdfaf;
+  color: rgb(248, 112, 214);
+  font-size: 18px;
+  font-weight: bold;
+  width: 208px;
+  height: 69px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 18px rgba(201, 171, 107, 0.55);
+  margin-top: 15%;
+}
+button:hover {
+  color: #f3a2a2;
+}
